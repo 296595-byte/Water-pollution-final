@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap');
+body{
+    background: #065a80;
+    font-family: "Rubik Microbe", system-ui;
+    color:rgb(7, 10, 12)
+    
+}
+.navbar-light{
+    background-color:rgb(141, 167, 184);
+    font-family: "Rubik Moonrocks", sans-serif;
+}
+.band-1{
+    background-color: #7cb1c2;
+}
+.hero {
+    position: relative; 
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+    background-image: url('img/waterp.jpeg');
+    background-size:cover;
+}
