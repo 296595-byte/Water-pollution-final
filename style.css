@@ -1,23 +1,44 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap');
-body{
-    background: #065a80;
-    font-family: "Rubik Microbe", system-ui;
-    color:rgb(7, 10, 12)
-    
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,600;1,600&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Unbounded:wght@200..900&display=swap');
+    body{
+background: #065a80;
+    color:rgb(7, 10, 12)   
 }
 .navbar-light{
-    background-color:rgb(141, 167, 184);
-    font-family: "Rubik Moonrocks", sans-serif;
+    background-color:rgb(85, 110, 145);
+    font-family: "Unbounded", sans-serif;
+    
 }
 .band-1{
-    background-color: #7cb1c2;
+    background-color: #465ba4;
 }
 .hero {
     position: relative; 
     width: 100%;
-    height: 300px; 
+    height: 400px; 
     overflow: hidden;
     background-image: url('img/waterp.jpeg');
     background-size:cover;
+     font-family: "Rubik Moonrocks", sans-serif;
+}
+.btn-primary{
+   width: 280px;
+   margin-left: auto;
+  margin-right: auto;
+  background-color: #0a2643;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(73, 71, 4, 0.2);
+   font-family:"Advent Pro", sans-serif;
+   border: #050328;
+  
+}
+.btn-primary:hover {
+ opacity: 0.85;
+  background-color: #050328;
+    font-family:"Advent Pro", sans-serif;
+     font-optical-sizing: auto;
+       border: #050328;
+}
+.row{
+   font-family: "Montserrat Alternates", sans-serif;
 }
