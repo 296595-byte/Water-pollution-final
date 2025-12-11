@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,600;1,600&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
     body{
 background: #065a80;
     color:rgb(7, 10, 12)   
@@ -41,4 +42,66 @@ background: #065a80;
 }
 .row{
    font-family: "Montserrat Alternates", sans-serif;
+}
+/*
+=================================================
+VIDEO BACKGROUND
+=================================================
+*/
+.video-hero{ 
+  position:relative;
+  background-image: none;
+  background-color:transparent;
+ font-family: "Changa One", sans-serif;
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  font-family: "Changa One", sans-serif;
+}
+
+.flex-container {
+  display: flex; /* Lines up the three sections horizontally */
+  gap: 20px;
+  width: 100%;
+}
+
+.section-column {
+  flex: 1; /* Makes each column take up 1/3 of the space */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* --- STYLING FOR HEADERS AND CONTENT --- */
+.section-column summary {
+  background-color: #f5f5f5;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none; /* Removes the default arrow */
+}
+
+.content-box {
+  padding: 10px 15px;
+  background-color: #ffffff;
+}
+
+/* Ensure the revealed content (the list) stacks vertically */
+.content-box ul {
+  padding-left: 20px; /* Standard list indent */
+  margin: 0;
+  /* Lists are vertical by default, but this ensures no strange behavior */
+  display: block; 
+}
+
+.content-box li {
+  margin-bottom: 5px; /* Adds space between the vertically stacked items */
 }
