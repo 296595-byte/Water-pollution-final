@@ -174,12 +174,15 @@ CAROUSEL
 */
 .container {
   display: flex;
-  justify-content: center; /* Centers the carousel horizontally */
+  justify-content: center; 
 }
 
 .carousel {
-  max-width: 700px; /* Limits the carousel width to 700px */
-  width: 100%; /* Ensures the carousel remains responsive */
+ position: relative;
+    overflow: hidden; /* **CRUCIAL**: Hides the slides that are off-screen */
+    width: 80%; /* Adjust as needed */
+    margin: 20px auto;
+
 }
 
 .carousel-item img {
